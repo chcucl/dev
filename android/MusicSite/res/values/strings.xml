@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MusicLoader</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="main_list_item_image_desc">main_list_item_image_desc</string>
+    <string name="main_list_item_arrow_desc">main list item arrow desc</string>
+    
+    <string name="music_title">music title</string>
+    <string name="music_artist">music artist</string>
+    <string name="music_duration">music duraiton</string>
+    
+    <string name="music_item_button_delete">delete</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout
+        android:id="@+id/main_list_item_layout_image" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/main_list_item_image_round"
+        android:layout_marginRight="5dp"
+         >
+        <ImageView
+            android:id="@+id/main_list_item_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/main_list_item_image_desc" 
+            />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/main_list_item_music_title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@+id/main_list_item_layout_image"
+        android:layout_alignTop="@+id/main_list_item_layout_image"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:typeface="sans"
+        android:text="@string/music_title" />
+    
+    <TextView
+        android:id="@+id/main_list_item_music_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/main_list_item_music_title"
+        android:layout_toRightOf="@id/main_list_item_layout_image"
+        android:textColor="#343434"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:typeface="sans"
+        android:text="@string/music_artist"
+        android:layout_marginTop="2dp" />
+    
+    <TextView
+        android:id="@+id/main_list_item_music_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignTop="@+id/main_list_item_layout_image"
+        android:layout_alignParentRight="true"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:text="@string/music_duration"
+        android:layout_marginTop="2dp"
+        />
+    
+    <ImageView
+        android:id="@+id/main_list_item_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/main_list_item_arrow_desc"
+        android:src="@drawable/main_list_item_arrow"
+        />
+
+</RelativeLayout>
